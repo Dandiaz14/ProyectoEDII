@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Practica 2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Practica 2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++14" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Practica 2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="academicoffer.cpp" />
+		<Unit filename="academicoffer.h" />
+		<Unit filename="building.cpp" />
+		<Unit filename="building.h" />
+		<Unit filename="career.cpp" />
+		<Unit filename="career.h" />
+		<Unit filename="careerNode.cpp" />
+		<Unit filename="careerNode.h" />
+		<Unit filename="catalog.cpp" />
+		<Unit filename="catalog.h" />
+		<Unit filename="destinyStack.cpp" />
+		<Unit filename="destinyStack.h" />
+		<Unit filename="disponibility.cpp" />
+		<Unit filename="disponibility.h" />
+		<Unit filename="edge.cpp" />
+		<Unit filename="edge.h" />
+		<Unit filename="graph.cpp" />
+		<Unit filename="graph.h" />
+		<Unit filename="graphList.cpp" />
+		<Unit filename="graphList.h" />
+		<Unit filename="graphQueue.cpp" />
+		<Unit filename="graphQueue.h" />
+		<Unit filename="graphStack.cpp" />
+		<Unit filename="graphStack.h" />
+		<Unit filename="group.cpp" />
+		<Unit filename="group.h" />
+		<Unit filename="hashingList.cpp" />
+		<Unit filename="hashingList.h" />
+		<Unit filename="hashingNode.cpp" />
+		<Unit filename="hashingNode.h" />
+		<Unit filename="hashingTable.cpp" />
+		<Unit filename="hashingTable.h" />
+		<Unit filename="index.cpp" />
+		<Unit filename="index.h" />
+		<Unit filename="invertData.cpp" />
+		<Unit filename="invertData.h" />
+		<Unit filename="invertList.cpp" />
+		<Unit filename="invertList.h" />
+		<Unit filename="invertNode.cpp" />
+		<Unit filename="invertNode.h" />
+		<Unit filename="listCareer.cpp" />
+		<Unit filename="listCareer.h" />
+		<Unit filename="listIndex.cpp" />
+		<Unit filename="listIndex.h" />
+		<Unit filename="listSubject.cpp" />
+		<Unit filename="listSubject.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="menu.cpp" />
+		<Unit filename="menu.h" />
+		<Unit filename="nodeIndex.cpp" />
+		<Unit filename="nodeIndex.h" />
+		<Unit filename="nodeSubject.cpp" />
+		<Unit filename="nodeSubject.h" />
+		<Unit filename="originStack.cpp" />
+		<Unit filename="originStack.h" />
+		<Unit filename="period.cpp" />
+		<Unit filename="period.h" />
+		<Unit filename="professor.cpp" />
+		<Unit filename="professor.h" />
+		<Unit filename="profile.cpp" />
+		<Unit filename="profile.h" />
+		<Unit filename="subject.cpp" />
+		<Unit filename="subject.h" />
+		<Unit filename="superuser.cpp" />
+		<Unit filename="superuser.h" />
+		<Unit filename="teacherMenu.cpp" />
+		<Unit filename="teacherMenu.h" />
+		<Unit filename="user.cpp" />
+		<Unit filename="user.h" />
+		<Unit filename="vertex.cpp" />
+		<Unit filename="vertex.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

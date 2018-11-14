@@ -1,0 +1,18 @@
+***Clases***
+main.cpp (clase principal)
+menu.h/menu.cpp (desplega el login y verifica el menu)
+professor.h/proffesor.cpp (clase profesores)
+profile.h/profile.cpp (clase perfil)
+superuser.h/superuser.cpp (desplega el menu del super usuario y todas sus opciones)
+teacherMenu.h/teacherMenu.cpp (desplega el menu del profesor y sus opciones)
+user.h/user.cpp (clase usuario)
+
+
+
+***Objetos***
+SuperUser mySuperUser; ///Objeto clase superuser.h
+TeacherMenu menuTeacher; ///Objeto clase teacherMenu.h
+Profile myProfile; ///Objeto clase profile.h
+User myUser; ///Objeto clase user.h
+Professor myTeacher; ///Objeto clase professor.h
+

@@ -1,0 +1,1 @@
+1|A|Economico Administrativa|activo|2|B|Economico Administrativa|activo|3|C|Economico Administrativa|activo|4|D|Economico Administrativa|activo|5|E|Procesos Industriales|activo|6|F|Procesos Industriales|activo|7|G|Procesos Industriales|activo|8|H|Tecnologica|activo|9|I|Tecnologica|activo|10|Z|Tecnologica|activo|

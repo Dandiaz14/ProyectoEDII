@@ -1,0 +1,611 @@
+# depslib dependency file v1.0
+1537538911 source:c:\users\dandi\desktop\semi estructura 2\practica 2\destinystack.cpp
+	"destinyStack.h"
+
+1537538824 c:\users\dandi\desktop\semi estructura 2\practica 2\destinystack.h
+	<iostream>
+	<string>
+
+1537401846 source:c:\users\dandi\desktop\semi estructura 2\practica 2\edge.cpp
+	"edge.h"
+
+1537401833 c:\users\dandi\desktop\semi estructura 2\practica 2\edge.h
+
+1537545270 source:c:\users\dandi\desktop\semi estructura 2\practica 2\graph.cpp
+	"graph.h"
+	"stdio.h"
+
+1537538824 c:\users\dandi\desktop\semi estructura 2\practica 2\graph.h
+	"vertex.h"
+	"edge.h"
+	<iostream>
+	<fstream>
+	"stdio.h"
+	"graphQueue.h"
+	"graphList.h"
+	"graphStack.h"
+	"originStack.h"
+	"destinyStack.h"
+
+1537489795 c:\users\dandi\desktop\semi estructura 2\practica 2\vertex.h
+	"stdio.h"
+	<string.h>
+	<iostream>
+
+1537403096 c:\users\dandi\desktop\semi estructura 2\practica 2\graphqueue.h
+	<iostream>
+	<string>
+
+1537403096 c:\users\dandi\desktop\semi estructura 2\practica 2\graphlist.h
+	<iostream>
+	<string>
+
+1537403096 c:\users\dandi\desktop\semi estructura 2\practica 2\graphstack.h
+	<iostream>
+	<string>
+
+1537538824 c:\users\dandi\desktop\semi estructura 2\practica 2\originstack.h
+	<iostream>
+	<string>
+
+1537403002 source:c:\users\dandi\desktop\semi estructura 2\practica 2\graphlist.cpp
+	"graphList.h"
+
+1537402853 source:c:\users\dandi\desktop\semi estructura 2\practica 2\graphqueue.cpp
+	"graphQueue.h"
+
+1537402923 source:c:\users\dandi\desktop\semi estructura 2\practica 2\graphstack.cpp
+	"graphStack.h"
+
+1536332148 source:c:\users\dandi\desktop\semi estructura 2\practica 2\group.cpp
+	"group.h"
+
+1536332154 c:\users\dandi\desktop\semi estructura 2\practica 2\group.h
+	<string.h>
+	<iostream>
+
+1536804001 source:c:\users\dandi\desktop\semi estructura 2\practica 2\index.cpp
+	<string.h>
+	<iostream>
+	"index.h"
+
+1536804014 c:\users\dandi\desktop\semi estructura 2\practica 2\index.h
+	<string.h>
+	<iostream>
+
+1536896074 source:c:\users\dandi\desktop\semi estructura 2\practica 2\listindex.cpp
+	"ListIndex.h"
+
+1536896225 c:\users\dandi\desktop\semi estructura 2\practica 2\listindex.h
+	<iostream>
+	<cstdio>
+	<fstream>
+	"nodeIndex.h"
+
+1536882906 c:\users\dandi\desktop\semi estructura 2\practica 2\nodeindex.h
+	"index.h"
+
+1536902780 source:c:\users\dandi\desktop\semi estructura 2\practica 2\listsubject.cpp
+	"ListSubject.h"
+
+1536886718 c:\users\dandi\desktop\semi estructura 2\practica 2\listsubject.h
+	<iostream>
+	<cstdio>
+	<fstream>
+	"nodeSubject.h"
+
+1536881638 c:\users\dandi\desktop\semi estructura 2\practica 2\nodesubject.h
+	"subject.h"
+
+1538699668 c:\users\dandi\desktop\semi estructura 2\practica 2\subject.h
+	<string.h>
+	<iostream>
+
+1535591488 source:c:\users\dandi\desktop\semi estructura 2\practica 2\main.cpp
+	<iostream>
+	"menu.h"
+
+1535674481 c:\users\dandi\desktop\semi estructura 2\practica 2\menu.h
+	<string.h>
+	<iostream>
+
+1538092086 source:c:\users\dandi\desktop\semi estructura 2\practica 2\menu.cpp
+	"menu.h"
+	"superuser.h"
+	"teacherMenu.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<limits>
+	<vector>
+	<conio.h>
+
+1538702114 c:\users\dandi\desktop\semi estructura 2\practica 2\superuser.h
+	<string.h>
+	<iostream>
+	"profile.h"
+	"user.h"
+	"group.h"
+	"period.h"
+	"professor.h"
+	"subject.h"
+	"index.h"
+	"listSubject.h"
+	"listIndex.h"
+	"graph.h"
+	"building.h"
+	"career.h"
+	"invertList.h"
+	"listCareer.h"
+	"invertData.h"
+
+1535589093 c:\users\dandi\desktop\semi estructura 2\practica 2\profile.h
+	<string.h>
+	<iostream>
+
+1535589267 c:\users\dandi\desktop\semi estructura 2\practica 2\user.h
+	<string.h>
+	<iostream>
+
+1536332063 c:\users\dandi\desktop\semi estructura 2\practica 2\period.h
+	<string.h>
+	<iostream>
+
+1535681161 c:\users\dandi\desktop\semi estructura 2\practica 2\professor.h
+	<string.h>
+	<iostream>
+
+1536286156 c:\users\dandi\desktop\semi estructura 2\practica 2\teachermenu.h
+	<string>
+
+1536882963 source:c:\users\dandi\desktop\semi estructura 2\practica 2\nodeindex.cpp
+	"nodeIndex.h"
+
+1536881631 source:c:\users\dandi\desktop\semi estructura 2\practica 2\nodesubject.cpp
+	"nodeSubject.h"
+
+1537538911 source:c:\users\dandi\desktop\semi estructura 2\practica 2\originstack.cpp
+	"originStack.h"
+
+1536332111 source:c:\users\dandi\desktop\semi estructura 2\practica 2\period.cpp
+	"period.h"
+
+1535681402 source:c:\users\dandi\desktop\semi estructura 2\practica 2\professor.cpp
+	"professor.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<limits>
+	<vector>
+	<conio.h>
+
+1535589090 source:c:\users\dandi\desktop\semi estructura 2\practica 2\profile.cpp
+	"profile.h"
+
+1536897158 source:c:\users\dandi\desktop\semi estructura 2\practica 2\subject.cpp
+	"subject.h"
+
+1536800088 source:c:\users\dandi\desktop\semi estructura 2\practica 2\teachermenu.cpp
+	"teacherMenu.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<limits>
+	<vector>
+	<conio.h>
+	<algorithm>
+	<string>
+	"professor.h"
+
+1535589443 source:c:\users\dandi\desktop\semi estructura 2\practica 2\user.cpp
+	"user.h"
+
+1537489782 source:c:\users\dandi\desktop\semi estructura 2\practica 2\vertex.cpp
+	"vertex.h"
+
+1538702334 source:c:\users\dandi\desktop\semi estructura 2\practica 2\superuser.cpp
+	"superuser.h"
+	<thread>
+	<chrono>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<limits>
+	<vector>
+	<conio.h>
+	<stdlib.h>
+	<algorithm>
+	<string>
+	<windows.h>
+
+1537490187 source:c:\users\dandi\desktop\semi estructura 2\practica 2\building.cpp
+	"building.h"
+
+1537489736 c:\users\dandi\desktop\semi estructura 2\practica 2\building.h
+	"stdio.h"
+	<string.h>
+	<iostream>
+
+1538695552 source:c:\users\dandi\desktop\semi estructura 2\practica 2\career.cpp
+	"career.h"
+
+1538695455 c:\users\dandi\desktop\semi estructura 2\practica 2\career.h
+	<string.h>
+	<iostream>
+
+1538668652 source:c:\users\dandi\desktop\semi estructura 2\practica 2\careernode.cpp
+	"careerNode.h"
+
+1538668568 c:\users\dandi\desktop\semi estructura 2\practica 2\careernode.h
+	<iostream>
+	"career.h"
+	"invertNode.h"
+
+1538702242 source:c:\users\dandi\desktop\semi estructura 2\practica 2\listcareer.cpp
+	"listCareer.h"
+
+1538695810 c:\users\dandi\desktop\semi estructura 2\practica 2\listcareer.h
+	<iostream>
+	<fstream>
+	"career.h"
+	"careerNode.h"
+
+1538696446 source:c:\users\dandi\desktop\semi estructura 2\practica 2\invertdata.cpp
+	"invertData.h"
+
+1538696416 c:\users\dandi\desktop\semi estructura 2\practica 2\invertdata.h
+	<iostream>
+	<stdio.h>
+	<string.h>
+
+1538617404 source:c:\users\dandi\desktop\semi estructura 2\practica 2\invertnode.cpp
+	"invertNode.h"
+
+1538618141 c:\users\dandi\desktop\semi estructura 2\practica 2\invertnode.h
+	<iostream>
+	"invertData.h"
+
+1538701618 source:c:\users\dandi\desktop\semi estructura 2\practica 2\invertlist.cpp
+	"invertList.h"
+
+1538696556 c:\users\dandi\desktop\semi estructura 2\practica 2\invertlist.h
+	<iostream>
+	<fstream>
+	"invertNode.h"
+	"invertData.h"
+	"subject.h"
+	"listIndex.h"
+	"nodeIndex.h"
+	"index.h"
+
+1537486588 source:c:\users\dandi\desktop\semi estructura 2\proyecto\building.cpp
+	"building.h"
+
+1537486138 c:\users\dandi\desktop\semi estructura 2\proyecto\building.h
+	"stdio.h"
+	<string.h>
+	<iostream>
+
+1538691954 source:c:\users\dandi\desktop\semi estructura 2\proyecto\career.cpp
+	"career.h"
+
+1538691856 c:\users\dandi\desktop\semi estructura 2\proyecto\career.h
+	<string.h>
+	<iostream>
+
+1537535312 source:c:\users\dandi\desktop\semi estructura 2\proyecto\destinystack.cpp
+	"destinyStack.h"
+
+1537535226 c:\users\dandi\desktop\semi estructura 2\proyecto\destinystack.h
+	<iostream>
+	<string>
+
+1537398248 source:c:\users\dandi\desktop\semi estructura 2\proyecto\edge.cpp
+	"edge.h"
+
+1537398234 c:\users\dandi\desktop\semi estructura 2\proyecto\edge.h
+
+1537541672 source:c:\users\dandi\desktop\semi estructura 2\proyecto\graph.cpp
+	"graph.h"
+	"stdio.h"
+
+1537535226 c:\users\dandi\desktop\semi estructura 2\proyecto\graph.h
+	"vertex.h"
+	"edge.h"
+	<iostream>
+	<fstream>
+	"stdio.h"
+	"graphQueue.h"
+	"graphList.h"
+	"graphStack.h"
+	"originStack.h"
+	"destinyStack.h"
+
+1537486196 c:\users\dandi\desktop\semi estructura 2\proyecto\vertex.h
+	"stdio.h"
+	<string.h>
+	<iostream>
+
+1537399498 c:\users\dandi\desktop\semi estructura 2\proyecto\graphqueue.h
+	<iostream>
+	<string>
+
+1537399498 c:\users\dandi\desktop\semi estructura 2\proyecto\graphlist.h
+	<iostream>
+	<string>
+
+1537399498 c:\users\dandi\desktop\semi estructura 2\proyecto\graphstack.h
+	<iostream>
+	<string>
+
+1537535226 c:\users\dandi\desktop\semi estructura 2\proyecto\originstack.h
+	<iostream>
+	<string>
+
+1537399404 source:c:\users\dandi\desktop\semi estructura 2\proyecto\graphlist.cpp
+	"graphList.h"
+
+1537399254 source:c:\users\dandi\desktop\semi estructura 2\proyecto\graphqueue.cpp
+	"graphQueue.h"
+
+1537399324 source:c:\users\dandi\desktop\semi estructura 2\proyecto\graphstack.cpp
+	"graphStack.h"
+
+1541716110 source:c:\users\dandi\desktop\semi estructura 2\proyecto\group.cpp
+	"group.h"
+
+1541716003 c:\users\dandi\desktop\semi estructura 2\proyecto\group.h
+	<string.h>
+	<iostream>
+
+1536800402 source:c:\users\dandi\desktop\semi estructura 2\proyecto\index.cpp
+	<string.h>
+	<iostream>
+	"index.h"
+
+1536800416 c:\users\dandi\desktop\semi estructura 2\proyecto\index.h
+	<string.h>
+	<iostream>
+
+1536892476 source:c:\users\dandi\desktop\semi estructura 2\proyecto\listindex.cpp
+	"ListIndex.h"
+
+1536892626 c:\users\dandi\desktop\semi estructura 2\proyecto\listindex.h
+	<iostream>
+	<cstdio>
+	<fstream>
+	"nodeIndex.h"
+
+1536879308 c:\users\dandi\desktop\semi estructura 2\proyecto\nodeindex.h
+	"index.h"
+
+1536899182 source:c:\users\dandi\desktop\semi estructura 2\proyecto\listsubject.cpp
+	"ListSubject.h"
+
+1536883120 c:\users\dandi\desktop\semi estructura 2\proyecto\listsubject.h
+	<iostream>
+	<cstdio>
+	<fstream>
+	"nodeSubject.h"
+
+1536878040 c:\users\dandi\desktop\semi estructura 2\proyecto\nodesubject.h
+	"subject.h"
+
+1541718306 c:\users\dandi\desktop\semi estructura 2\proyecto\subject.h
+	<string.h>
+	<iostream>
+
+1535587890 source:c:\users\dandi\desktop\semi estructura 2\proyecto\main.cpp
+	<iostream>
+	"menu.h"
+
+1535670882 c:\users\dandi\desktop\semi estructura 2\proyecto\menu.h
+	<string.h>
+	<iostream>
+
+1538088488 source:c:\users\dandi\desktop\semi estructura 2\proyecto\menu.cpp
+	"menu.h"
+	"superuser.h"
+	"teacherMenu.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<limits>
+	<vector>
+	<conio.h>
+
+1542137585 c:\users\dandi\desktop\semi estructura 2\proyecto\superuser.h
+	<string.h>
+	<iostream>
+	"profile.h"
+	"user.h"
+	"group.h"
+	"period.h"
+	"professor.h"
+	"subject.h"
+	"index.h"
+	"listSubject.h"
+	"listIndex.h"
+	"graph.h"
+	"building.h"
+	"career.h"
+	"invertList.h"
+	"listCareer.h"
+	"invertData.h"
+	"hashingTable.h"
+	"disponibility.h"
+	"catalog.h"
+	"academicoffer.h"
+
+1535585494 c:\users\dandi\desktop\semi estructura 2\proyecto\profile.h
+	<string.h>
+	<iostream>
+
+1535585668 c:\users\dandi\desktop\semi estructura 2\proyecto\user.h
+	<string.h>
+	<iostream>
+
+1536328464 c:\users\dandi\desktop\semi estructura 2\proyecto\period.h
+	<string.h>
+	<iostream>
+
+1535677562 c:\users\dandi\desktop\semi estructura 2\proyecto\professor.h
+	<string.h>
+	<iostream>
+
+1539968982 c:\users\dandi\desktop\semi estructura 2\proyecto\invertlist.h
+	<iostream>
+	<fstream>
+	"invertNode.h"
+	"invertData.h"
+	"subject.h"
+	"listIndex.h"
+	"nodeIndex.h"
+	"index.h"
+
+1538614542 c:\users\dandi\desktop\semi estructura 2\proyecto\invertnode.h
+	<iostream>
+	"invertData.h"
+
+1538692818 c:\users\dandi\desktop\semi estructura 2\proyecto\invertdata.h
+	<iostream>
+	<stdio.h>
+	<string.h>
+
+1541729579 c:\users\dandi\desktop\semi estructura 2\proyecto\listcareer.h
+	<iostream>
+	<fstream>
+	"career.h"
+	"careerNode.h"
+
+1538664970 c:\users\dandi\desktop\semi estructura 2\proyecto\careernode.h
+	<iostream>
+	"career.h"
+	"invertNode.h"
+
+1536282558 c:\users\dandi\desktop\semi estructura 2\proyecto\teachermenu.h
+	<string>
+
+1536879364 source:c:\users\dandi\desktop\semi estructura 2\proyecto\nodeindex.cpp
+	"nodeIndex.h"
+
+1536878032 source:c:\users\dandi\desktop\semi estructura 2\proyecto\nodesubject.cpp
+	"nodeSubject.h"
+
+1537535312 source:c:\users\dandi\desktop\semi estructura 2\proyecto\originstack.cpp
+	"originStack.h"
+
+1536328512 source:c:\users\dandi\desktop\semi estructura 2\proyecto\period.cpp
+	"period.h"
+
+1535677804 source:c:\users\dandi\desktop\semi estructura 2\proyecto\professor.cpp
+	"professor.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<limits>
+	<vector>
+	<conio.h>
+
+1535585492 source:c:\users\dandi\desktop\semi estructura 2\proyecto\profile.cpp
+	"profile.h"
+
+1541728681 source:c:\users\dandi\desktop\semi estructura 2\proyecto\subject.cpp
+	"subject.h"
+
+1542138514 source:c:\users\dandi\desktop\semi estructura 2\proyecto\superuser.cpp
+	"superuser.h"
+	<thread>
+	<chrono>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<limits>
+	<vector>
+	<conio.h>
+	<stdlib.h>
+	<algorithm>
+	<string>
+	<sstream>
+	<windows.h>
+	<ctime>
+
+1536796490 source:c:\users\dandi\desktop\semi estructura 2\proyecto\teachermenu.cpp
+	"teacherMenu.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<limits>
+	<vector>
+	<conio.h>
+	<algorithm>
+	<string>
+	"professor.h"
+
+1535585844 source:c:\users\dandi\desktop\semi estructura 2\proyecto\user.cpp
+	"user.h"
+
+1537486184 source:c:\users\dandi\desktop\semi estructura 2\proyecto\vertex.cpp
+	"vertex.h"
+
+1538665054 source:c:\users\dandi\desktop\semi estructura 2\proyecto\careernode.cpp
+	"careerNode.h"
+
+1538692848 source:c:\users\dandi\desktop\semi estructura 2\proyecto\invertdata.cpp
+	"invertData.h"
+
+1538613806 source:c:\users\dandi\desktop\semi estructura 2\proyecto\invertnode.cpp
+	"invertNode.h"
+
+1541729935 source:c:\users\dandi\desktop\semi estructura 2\proyecto\listcareer.cpp
+	"listCareer.h"
+
+1539969232 source:c:\users\dandi\desktop\semi estructura 2\proyecto\invertlist.cpp
+	"invertList.h"
+
+1541104274 source:c:\users\dandi\desktop\semi estructura 2\proyecto\disponibility.cpp
+	"disponibility.h"
+
+1541104100 c:\users\dandi\desktop\semi estructura 2\proyecto\disponibility.h
+	"stdio.h"
+	<string.h>
+	<iostream>
+
+1540436205 source:c:\users\dandi\desktop\semi estructura 2\proyecto\hashingnode.cpp
+	"hashingNode.h"
+
+1540436300 c:\users\dandi\desktop\semi estructura 2\proyecto\hashingnode.h
+	<iostream>
+	"disponibility.h"
+
+1542137854 source:c:\users\dandi\desktop\semi estructura 2\proyecto\hashingtable.cpp
+	"hashingTable.h"
+
+1541777259 c:\users\dandi\desktop\semi estructura 2\proyecto\hashingtable.h
+	<iostream>
+	<fstream>
+	<stdexcept>
+	"disponibility.h"
+	"hashingList.h"
+
+1540435729 c:\users\dandi\desktop\semi estructura 2\proyecto\hashinglist.h
+	"hashingNode.h"
+	"disponibility.h"
+
+1540436361 source:c:\users\dandi\desktop\semi estructura 2\proyecto\hashinglist.cpp
+	"hashingList.h"
+
+1541186345 source:c:\users\dandi\desktop\semi estructura 2\proyecto\catalog.cpp
+	"catalog.h"
+
+1541186225 c:\users\dandi\desktop\semi estructura 2\proyecto\catalog.h
+	<string.h>
+	<iostream>
+
+1541728570 source:c:\users\dandi\desktop\semi estructura 2\proyecto\academicoffer.cpp
+	"academicoffer.h"
+
+1541728553 c:\users\dandi\desktop\semi estructura 2\proyecto\academicoffer.h
+	<string.h>
+	<iostream>
+
