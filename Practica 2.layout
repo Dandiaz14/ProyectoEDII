@@ -2,9 +2,14 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="invertData.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="graphStack.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="224" topLine="0" />
+			<Cursor1 position="196" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="career.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="193" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="main.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -12,44 +17,14 @@
 			<Cursor1 position="97" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="hashingTable.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="disponibility.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="727" topLine="0" />
+			<Cursor1 position="497" topLine="9" />
 		</Cursor>
 	</File>
-	<File name="subject.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="originStack.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="676" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="graph.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="387" topLine="9" />
-		</Cursor>
-	</File>
-	<File name="careerNode.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="6" />
-		</Cursor>
-	</File>
-	<File name="period.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="768" topLine="29" />
-		</Cursor>
-	</File>
-	<File name="graphQueue.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="27" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="vertex.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="355" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="hashingNode.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="437" topLine="0" />
+			<Cursor1 position="184" topLine="6" />
 		</Cursor>
 	</File>
 	<File name="graphQueue.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -57,14 +32,188 @@
 			<Cursor1 position="296" topLine="3" />
 		</Cursor>
 	</File>
-	<File name="vertex.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="listCareer.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="369" topLine="2" />
+			<Cursor1 position="645" topLine="21" />
 		</Cursor>
 	</File>
-	<File name="listIndex.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="catalog.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="597" topLine="13" />
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="group.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="427" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="listSubject.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3410" topLine="98" />
+		</Cursor>
+	</File>
+	<File name="profile.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="58" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="group.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="431" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="originStack.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="185" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="invertList.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4413" topLine="38" />
+		</Cursor>
+		<Folding>
+			<Collapse line="4" />
+			<Collapse line="16" />
+			<Collapse line="21" />
+			<Collapse line="26" />
+			<Collapse line="33" />
+			<Collapse line="38" />
+			<Collapse line="42" />
+		</Folding>
+	</File>
+	<File name="destinyStack.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="190" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="listCareer.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1303" topLine="29" />
+		</Cursor>
+		<Folding>
+			<Collapse line="2" />
+			<Collapse line="14" />
+			<Collapse line="17" />
+			<Collapse line="21" />
+			<Collapse line="25" />
+		</Folding>
+	</File>
+	<File name="invertList.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1204" topLine="34" />
+		</Cursor>
+	</File>
+	<File name="professor.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="108" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="graphList.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="26" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="nodeSubject.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="441" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="hashingTable.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2838" topLine="15" />
+		</Cursor>
+		<Folding>
+			<Collapse line="39" />
+			<Collapse line="63" />
+			<Collapse line="76" />
+			<Collapse line="109" />
+			<Collapse line="180" />
+			<Collapse line="185" />
+			<Collapse line="220" />
+			<Collapse line="251" />
+		</Folding>
+	</File>
+	<File name="hashingList.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1374" topLine="13" />
+		</Cursor>
+		<Folding>
+			<Collapse line="2" />
+			<Collapse line="6" />
+			<Collapse line="10" />
+			<Collapse line="14" />
+			<Collapse line="34" />
+			<Collapse line="38" />
+			<Collapse line="51" />
+			<Collapse line="71" />
+			<Collapse line="105" />
+			<Collapse line="113" />
+			<Collapse line="124" />
+		</Folding>
+	</File>
+	<File name="period.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="700" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="hashingNode.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="17" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="period.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="768" topLine="29" />
+		</Cursor>
+	</File>
+	<File name="teacherMenu.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="182" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="hashingNode.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="437" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="profile.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="186" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="hashingTable.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="727" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="graphStack.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="27" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="subject.h" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="691" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="vertex.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="355" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="graph.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="387" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="invertData.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="224" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="user.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="602" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="graph.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -86,188 +235,104 @@
 			<Collapse line="309" />
 		</Folding>
 	</File>
-	<File name="invertList.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="professor.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1204" topLine="34" />
+			<Cursor1 position="513" topLine="26" />
 		</Cursor>
 	</File>
-	<File name="graphList.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="vertex.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="26" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="building.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="82" topLine="15" />
-		</Cursor>
-	</File>
-	<File name="listCareer.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="645" topLine="21" />
-		</Cursor>
-	</File>
-	<File name="graphStack.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="27" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="professor.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="108" topLine="3" />
-		</Cursor>
-	</File>
-	<File name="invertList.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="4413" topLine="38" />
-		</Cursor>
-		<Folding>
-			<Collapse line="4" />
-			<Collapse line="16" />
-			<Collapse line="21" />
-			<Collapse line="26" />
-			<Collapse line="33" />
-			<Collapse line="38" />
-			<Collapse line="42" />
-		</Folding>
-	</File>
-	<File name="building.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="60" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="period.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="700" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="invertNode.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="252" topLine="8" />
-		</Cursor>
-	</File>
-	<File name="menu.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="260" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="listCareer.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1303" topLine="29" />
-		</Cursor>
-		<Folding>
-			<Collapse line="2" />
-			<Collapse line="14" />
-			<Collapse line="17" />
-			<Collapse line="21" />
-			<Collapse line="25" />
-		</Folding>
-	</File>
-	<File name="group.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="431" topLine="0" />
+			<Cursor1 position="369" topLine="2" />
 		</Cursor>
 	</File>
 	<File name="superuser.cpp" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="97629" topLine="489" />
+			<Cursor1 position="96389" topLine="2047" />
 		</Cursor>
 		<Folding>
-			<Collapse line="160" />
-			<Collapse line="187" />
-			<Collapse line="246" />
-			<Collapse line="275" />
-			<Collapse line="305" />
-			<Collapse line="345" />
-			<Collapse line="381" />
-			<Collapse line="437" />
-			<Collapse line="467" />
-			<Collapse line="489" />
-			<Collapse line="533" />
-			<Collapse line="564" />
-			<Collapse line="636" />
-			<Collapse line="672" />
-			<Collapse line="715" />
-			<Collapse line="739" />
-			<Collapse line="764" />
-			<Collapse line="796" />
-			<Collapse line="821" />
-			<Collapse line="860" />
-			<Collapse line="896" />
-			<Collapse line="922" />
-			<Collapse line="949" />
-			<Collapse line="979" />
-			<Collapse line="1035" />
-			<Collapse line="1075" />
-			<Collapse line="1124" />
-			<Collapse line="1166" />
-			<Collapse line="1206" />
-			<Collapse line="1244" />
-			<Collapse line="1293" />
-			<Collapse line="1339" />
-			<Collapse line="1403" />
-			<Collapse line="1477" />
-			<Collapse line="1593" />
-			<Collapse line="1653" />
-			<Collapse line="1724" />
-			<Collapse line="1788" />
-			<Collapse line="1870" />
-			<Collapse line="1929" />
-			<Collapse line="1980" />
-			<Collapse line="2040" />
-			<Collapse line="2109" />
-			<Collapse line="2186" />
-			<Collapse line="2252" />
-			<Collapse line="2319" />
-			<Collapse line="2360" />
-			<Collapse line="2438" />
-			<Collapse line="2488" />
-			<Collapse line="2501" />
-			<Collapse line="2518" />
-			<Collapse line="2557" />
-			<Collapse line="2611" />
-			<Collapse line="2677" />
-			<Collapse line="2727" />
-			<Collapse line="2775" />
-			<Collapse line="2788" />
-			<Collapse line="2827" />
-			<Collapse line="2881" />
-			<Collapse line="2947" />
-			<Collapse line="2996" />
-			<Collapse line="3044" />
-			<Collapse line="3057" />
-			<Collapse line="3090" />
-			<Collapse line="3128" />
-			<Collapse line="3141" />
-			<Collapse line="3166" />
-			<Collapse line="3191" />
-			<Collapse line="3204" />
-			<Collapse line="3228" />
-			<Collapse line="3241" />
-			<Collapse line="3266" />
-			<Collapse line="3279" />
-			<Collapse line="3304" />
-			<Collapse line="3317" />
-			<Collapse line="3342" />
-			<Collapse line="3355" />
-			<Collapse line="3365" />
-			<Collapse line="3394" />
-			<Collapse line="3399" />
-			<Collapse line="3408" />
-			<Collapse line="3421" />
-			<Collapse line="3437" />
-			<Collapse line="3474" />
-			<Collapse line="3505" />
-			<Collapse line="3540" />
+			<Collapse line="18" />
+			<Collapse line="110" />
+			<Collapse line="120" />
+			<Collapse line="184" />
+			<Collapse line="200" />
+			<Collapse line="227" />
+			<Collapse line="286" />
+			<Collapse line="315" />
+			<Collapse line="347" />
+			<Collapse line="359" />
+			<Collapse line="387" />
+			<Collapse line="700" />
+			<Collapse line="2636" />
+			<Collapse line="2703" />
+			<Collapse line="2744" />
+			<Collapse line="2822" />
+			<Collapse line="2872" />
+			<Collapse line="2885" />
+			<Collapse line="2902" />
+			<Collapse line="2973" />
+			<Collapse line="3012" />
+			<Collapse line="3066" />
+			<Collapse line="3132" />
+			<Collapse line="3182" />
+			<Collapse line="3230" />
+			<Collapse line="3243" />
+			<Collapse line="3282" />
+			<Collapse line="3336" />
+			<Collapse line="3402" />
+			<Collapse line="3451" />
+			<Collapse line="3499" />
+			<Collapse line="3512" />
+			<Collapse line="3545" />
+			<Collapse line="3583" />
+			<Collapse line="3596" />
+			<Collapse line="3621" />
+			<Collapse line="3646" />
+			<Collapse line="3659" />
+			<Collapse line="3683" />
+			<Collapse line="3696" />
+			<Collapse line="3721" />
+			<Collapse line="3734" />
+			<Collapse line="3759" />
+			<Collapse line="3772" />
+			<Collapse line="3797" />
+			<Collapse line="3810" />
+			<Collapse line="3820" />
+			<Collapse line="3849" />
+			<Collapse line="3854" />
+			<Collapse line="3863" />
+			<Collapse line="3876" />
+			<Collapse line="3892" />
+			<Collapse line="3928" />
+			<Collapse line="3959" />
+			<Collapse line="3995" />
+			<Collapse line="4014" />
+			<Collapse line="4042" />
+			<Collapse line="4085" />
+			<Collapse line="4124" />
+			<Collapse line="4167" />
+			<Collapse line="4195" />
+			<Collapse line="4236" />
+			<Collapse line="4274" />
+			<Collapse line="4303" />
+			<Collapse line="4331" />
+			<Collapse line="4354" />
+			<Collapse line="4360" />
+			<Collapse line="4385" />
+			<Collapse line="4434" />
+			<Collapse line="4489" />
+			<Collapse line="4524" />
+			<Collapse line="4559" />
+			<Collapse line="4578" />
+			<Collapse line="4615" />
+			<Collapse line="4699" />
+			<Collapse line="4714" />
+			<Collapse line="4740" />
+			<Collapse line="4778" />
 		</Folding>
 	</File>
-	<File name="listIndex.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="user.cpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="6109" topLine="261" />
-		</Cursor>
-	</File>
-	<File name="disponibility.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="488" topLine="5" />
+			<Cursor1 position="343" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="listSubject.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -275,132 +340,14 @@
 			<Cursor1 position="639" topLine="27" />
 		</Cursor>
 	</File>
-	<File name="hashingList.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="graphQueue.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1374" topLine="13" />
-		</Cursor>
-		<Folding>
-			<Collapse line="2" />
-			<Collapse line="6" />
-			<Collapse line="10" />
-			<Collapse line="14" />
-			<Collapse line="34" />
-			<Collapse line="38" />
-			<Collapse line="51" />
-			<Collapse line="71" />
-			<Collapse line="105" />
-			<Collapse line="113" />
-			<Collapse line="124" />
-		</Folding>
-	</File>
-	<File name="profile.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="186" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="menu.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1690" topLine="51" />
-		</Cursor>
-	</File>
-	<File name="hashingTable.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2838" topLine="15" />
-		</Cursor>
-		<Folding>
-			<Collapse line="39" />
-			<Collapse line="63" />
-			<Collapse line="76" />
-			<Collapse line="109" />
-			<Collapse line="180" />
-			<Collapse line="185" />
-			<Collapse line="220" />
-			<Collapse line="251" />
-		</Folding>
-	</File>
-	<File name="graphList.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="249" topLine="6" />
+			<Cursor1 position="27" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="superuser.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="3582" topLine="102" />
-		</Cursor>
-	</File>
-	<File name="teacherMenu.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="182" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="user.cpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="343" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="user.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="602" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="destinyStack.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="190" topLine="3" />
-		</Cursor>
-	</File>
-	<File name="listSubject.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3410" topLine="98" />
-		</Cursor>
-	</File>
-	<File name="graphStack.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="196" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="originStack.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="184" topLine="6" />
-		</Cursor>
-	</File>
-	<File name="nodeSubject.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="441" topLine="3" />
-		</Cursor>
-	</File>
-	<File name="career.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="193" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="profile.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="58" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="originStack.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="185" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="destinyStack.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="187" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="subject.h" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="691" topLine="9" />
-		</Cursor>
-	</File>
-	<File name="disponibility.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="497" topLine="9" />
-		</Cursor>
-	</File>
-	<File name="hashingNode.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="17" topLine="0" />
+			<Cursor1 position="635" topLine="53" />
 		</Cursor>
 	</File>
 	<File name="teacherMenu.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -408,19 +355,64 @@
 			<Cursor1 position="4470" topLine="205" />
 		</Cursor>
 	</File>
-	<File name="professor.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="building.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="513" topLine="26" />
+			<Cursor1 position="82" topLine="15" />
 		</Cursor>
 	</File>
-	<File name="group.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="subject.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="427" topLine="9" />
+			<Cursor1 position="676" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="catalog.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="careerNode.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="0" topLine="0" />
+			<Cursor1 position="0" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="invertNode.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="252" topLine="8" />
+		</Cursor>
+	</File>
+	<File name="building.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="60" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="listIndex.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6109" topLine="261" />
+		</Cursor>
+	</File>
+	<File name="destinyStack.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="187" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="listIndex.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="597" topLine="13" />
+		</Cursor>
+	</File>
+	<File name="menu.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="260" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="disponibility.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="488" topLine="5" />
+		</Cursor>
+	</File>
+	<File name="menu.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1690" topLine="51" />
+		</Cursor>
+	</File>
+	<File name="graphList.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="249" topLine="6" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

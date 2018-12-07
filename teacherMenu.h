@@ -8,10 +8,9 @@ class TeacherMenu{
 private:
 
 public:
-    void teacherMenu();
-    ///void insertData();
-    void showData();
-    void findData();
+    void teacherMenu(const std::string&);
+    void coordinatorMenu(const std::string&);
+    void asistentMenu(const std::string&);
     void modifyData();
     void deleteData();
 

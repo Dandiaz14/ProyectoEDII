@@ -54,18 +54,18 @@ int Menu::login(){
     }
     else if(check == 2){
         system("cls");
-        cout << "Menu de Coordinado Academico En Construccion. . ." << endl;
+        menuTeacher.coordinatorMenu(user);
         system("pause");
         return 1;
     }
     else if(check == 3){
         system("cls");
-        cout << "Menu de Asistente Academico En Construccion. . ." << endl;
+        menuTeacher.asistentMenu(user);
         system("pause");
         return 1;
     }
     else if(check == 4){
-        menuTeacher.teacherMenu();
+        menuTeacher.teacherMenu(user);
         system("cls");
         return 1;
     }

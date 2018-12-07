@@ -403,7 +403,7 @@
 	<string.h>
 	<iostream>
 
-1538088488 source:c:\users\dandi\desktop\semi estructura 2\proyecto\menu.cpp
+1544035640 source:c:\users\dandi\desktop\semi estructura 2\proyecto\menu.cpp
 	"menu.h"
 	"superuser.h"
 	"teacherMenu.h"
@@ -414,9 +414,11 @@
 	<vector>
 	<conio.h>
 
-1542137585 c:\users\dandi\desktop\semi estructura 2\proyecto\superuser.h
+1544029541 c:\users\dandi\desktop\semi estructura 2\proyecto\superuser.h
 	<string.h>
 	<iostream>
+	<sstream>
+	<bitset>
 	"profile.h"
 	"user.h"
 	"group.h"
@@ -436,6 +438,7 @@
 	"disponibility.h"
 	"catalog.h"
 	"academicoffer.h"
+	"huffmanList.h"
 
 1535585494 c:\users\dandi\desktop\semi estructura 2\proyecto\profile.h
 	<string.h>
@@ -483,7 +486,7 @@
 	"career.h"
 	"invertNode.h"
 
-1536282558 c:\users\dandi\desktop\semi estructura 2\proyecto\teachermenu.h
+1544035418 c:\users\dandi\desktop\semi estructura 2\proyecto\teachermenu.h
 	<string>
 
 1536879364 source:c:\users\dandi\desktop\semi estructura 2\proyecto\nodeindex.cpp
@@ -513,7 +516,7 @@
 1541728681 source:c:\users\dandi\desktop\semi estructura 2\proyecto\subject.cpp
 	"subject.h"
 
-1542138514 source:c:\users\dandi\desktop\semi estructura 2\proyecto\superuser.cpp
+1544031185 source:c:\users\dandi\desktop\semi estructura 2\proyecto\superuser.cpp
 	"superuser.h"
 	<thread>
 	<chrono>
@@ -530,7 +533,7 @@
 	<windows.h>
 	<ctime>
 
-1536796490 source:c:\users\dandi\desktop\semi estructura 2\proyecto\teachermenu.cpp
+1544035570 source:c:\users\dandi\desktop\semi estructura 2\proyecto\teachermenu.cpp
 	"teacherMenu.h"
 	<iostream>
 	<fstream>
@@ -608,4 +611,30 @@
 1541728553 c:\users\dandi\desktop\semi estructura 2\proyecto\academicoffer.h
 	<string.h>
 	<iostream>
+
+1542240332 source:c:\users\dandi\desktop\semi estructura 2\proyecto\huffmannode.cpp
+	"huffmanNode.h"
+
+1542240305 c:\users\dandi\desktop\semi estructura 2\proyecto\huffmannode.h
+	<string>
+	<string.h>
+
+1542240444 source:c:\users\dandi\desktop\semi estructura 2\proyecto\nodetree.cpp
+	"nodeTree.h"
+
+1542240425 c:\users\dandi\desktop\semi estructura 2\proyecto\nodetree.h
+	<string>
+	<string.h>
+
+1542249500 source:c:\users\dandi\desktop\semi estructura 2\proyecto\huffmanlist.cpp
+	"HuffmanList.h"
+
+1542248410 c:\users\dandi\desktop\semi estructura 2\proyecto\huffmanlist.h
+	"huffmanNode.h"
+	"nodeTree.h"
+	<stdlib.h>
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	<windows.h>
 

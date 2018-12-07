@@ -35,7 +35,9 @@ void SuperUser::adminMenu()
         cout << "9.- Cargar Grafo" << endl;
         cout << "10.- Cargar Lista Invertida" << endl;
         cout << "11.- Incrementar Tabla Hash" << endl;
-        cout << "12.- Salir" << endl << endl;
+        cout << "12.- Encriptar" << endl;
+        cout << "13.- Desencriptar" << endl;
+        cout << "14.- Salir" << endl << endl;
         cout << "Ingresa la opcion deseada: ";
         cin >> opc;
         selfSaved();
@@ -93,8 +95,16 @@ void SuperUser::adminMenu()
             system("cls");
             increaseTable();
         break;
+        case 12:
+            system("cls");
+            encrypt();
+        break;
+        case 13:
+            system("cls");
+            desencrypt();
+        break;
         }
-    }while(opc!=12);
+    }while(opc!=14);
 }
 
 void SuperUser::insertData()
@@ -111,15 +121,27 @@ void SuperUser::insertData()
         switch(opc){
             case 1:
                 system("cls");
-                cout << "Agrega Perfil Nuevo" << endl;
-                insertProfile();
-                cout << "Perfil Ingresado Exitosamente. . ." << endl;
+                if(isEncrypted==true){
+                 cout << "Accion no permitida, Archivo Encriptado" << endl;
+                 system("pause");
+                }
+                else{
+                    cout << "Agrega Perfil Nuevo" << endl;
+                    insertProfile();
+                    cout << "Perfil Ingresado Exitosamente. . ." << endl;
+                }
             break;
             case 2:
-                system("cls");
-                cout << "Agrega Usuario Nuevo" << endl;
-                insertUser();
-                cout << "Usuario Ingresado Exitosamente. . ." << endl;
+                if(isEncrypted==true){
+                 cout << "Accion no permitida, Archivo Encriptado" << endl;
+                 system("pause");
+                }
+                else{
+                  system("cls");
+                    cout << "Agrega Usuario Nuevo" << endl;
+                    insertUser();
+                    cout << "Usuario Ingresado Exitosamente. . ." << endl;
+                }
             break;
             case 3:
                 system("cls");
@@ -144,9 +166,15 @@ void SuperUser::insertData()
                 graphInsert();
             break;
             case 7:
-                system("cls");
-                insertHashing();
-                system("pause");
+                if(isEncrypted==true){
+                 cout << "Accion no permitida, Archivo Encriptado" << endl;
+                 system("pause");
+                }
+                else{
+                    system("cls");
+                    insertHashing();
+                    system("pause");
+                }
             break;
             case 8:
                 system("cls");
@@ -154,10 +182,16 @@ void SuperUser::insertData()
                 system("pause");
             break;
             case 9:
-                system("cls");
-                insertOffer();
-                cout << "Nueva Oferta Academica Creada Exitosamente. . ." << endl;
-                system("pause");
+                if(isEncrypted==true){
+                 cout << "Accion no permitida, Archivo Encriptado" << endl;
+                 system("pause");
+                }
+                else{
+                    system("cls");
+                    insertOffer();
+                    cout << "Nueva Oferta Academica Creada Exitosamente. . ." << endl;
+                    system("pause");
+                }
             break;
         }
     }while(opc != 10);
@@ -601,8 +635,13 @@ void SuperUser::insertOffer()
     else{
         cout << "Ingrese Nombre del Periodo: ";
         getline(cin,periodName);
-        myOffer.setPeriod(periodName);
 
+        while(verifyPeriod(periodName)==false){
+            cout << "Periodo Inexistente en el Sistema, pruebe otra vez"<< endl;
+            cout << "Ingrese Nombre del Periodo: ";
+            getline(cin,periodName);
+        }
+        myOffer.setPeriod(periodName);
         system("cls");
         cout << "Usted esta eligiendo la oferta academica para el periodo " << periodName << endl << endl << endl;
         cout << "Carreras A Elegir: " << endl;
@@ -661,14 +700,26 @@ void SuperUser::showData()
         cin >> opc;
         switch(opc){
             case 1:
-                cout << "\n***Perfiles***" << endl;
-                showProfile();
-                system("pause");
+                if(isEncrypted==true){
+                 cout << "Accion no permitida, Archivo Encriptado" << endl;
+                 system("pause");
+                }
+                else{
+                    cout << "\n***Perfiles***" << endl;
+                    showProfile();
+                    system("pause");
+                }
             break;
             case 2:
-                cout << "\n***Usuarios***" << endl;
-                showUser();
-                system("pause");
+                if(isEncrypted==true){
+                 cout << "Accion no permitida, Archivo Encriptado" << endl;
+                 system("pause");
+                }
+                else{
+                    cout << "\n***Usuarios***" << endl;
+                    showUser();
+                    system("pause");
+                }
             break;
             case 3:
                 cout << "\n***Grupos***" << endl;
@@ -681,9 +732,15 @@ void SuperUser::showData()
                 system("pause");
             break;
             case 5:
-                cout << "\n***Profesores***" << endl;
-                showProfessor();
-                system("pause");
+                if(isEncrypted==true){
+                 cout << "Accion no permitida, Archivo Encriptado" << endl;
+                 system("pause");
+                }
+                else{
+                    cout << "\n***Profesores***" << endl;
+                    showProfessor();
+                    system("pause");
+                }
             break;
             case 6:
                 cout << "\n***Asignaturas***" << endl;
@@ -706,10 +763,16 @@ void SuperUser::showData()
                 system("pause");
             break;
             case 10:
-                system("cls");
-                cout << "\n***Disponibilidad***" << endl;
-                showDisponibility();
-                system("pause");
+                if(isEncrypted==true){
+                 cout << "Accion no permitida, Archivo Encriptado" << endl;
+                 system("pause");
+                }
+                else{
+                    system("cls");
+                    cout << "\n***Disponibilidad***" << endl;
+                    showDisponibility();
+                    system("pause");
+                }
             break;
             case 11:
                 system("cls");
@@ -718,10 +781,16 @@ void SuperUser::showData()
                 system("pause");
             break;
             case 12:
-                system("cls");
-                ///cout << "\n***Catalogo***" << endl;
-                showOffer();
-                system("pause");
+                if(isEncrypted==true){
+                 cout << "Accion no permitida, Archivo Encriptado" << endl;
+                 system("pause");
+                }
+                else{
+                    system("cls");
+                    ///cout << "\n***Catalogo***" << endl;
+                    showOffer();
+                    system("pause");
+                }
             break;
         }
     }while(opc != 13);
@@ -1158,16 +1227,28 @@ void SuperUser::findData()
         cin >> opc;
         switch(opc){
             case 1:
-                system("cls");
-                cout << "\n***Perfil***" << endl;
-                findProfile();
-                system("pause");
+                if(isEncrypted==true){
+                 cout << "Accion no permitida, Archivo Encriptado" << endl;
+                 system("pause");
+                }
+                else{
+                    system("cls");
+                    cout << "\n***Perfil***" << endl;
+                    findProfile();
+                    system("pause");
+                }
             break;
             case 2:
-                system("cls");
-                cout << "\n***Usuario***" << endl;
-                findUser();
-                system("pause");
+                if(isEncrypted==true){
+                 cout << "Accion no permitida, Archivo Encriptado" << endl;
+                 system("pause");
+                }
+                else{
+                    system("cls");
+                    cout << "\n***Usuario***" << endl;
+                    findUser();
+                    system("pause");
+                }
             break;
              case 3:
                 system("cls");
@@ -1182,10 +1263,16 @@ void SuperUser::findData()
                 system("pause");
             break;
             case 5:
-                system("cls");
-                cout << "\n***Profesores***" << endl;
-                findProfessor();
-                system("pause");
+                if(isEncrypted==true){
+                 cout << "Accion no permitida, Archivo Encriptado" << endl;
+                 system("pause");
+                }
+                else{
+                    system("cls");
+                    cout << "\n***Profesores***" << endl;
+                    findProfessor();
+                    system("pause");
+                }
             break;
             case 6:
                 system("cls");
@@ -1519,18 +1606,28 @@ void SuperUser::modifyData()
         cin >> opc;
         switch(opc){
             case 1:
-                system("cls");
-                cout << "\n***Perfil***" << endl;
-                modifyProfile();
-
-                system("pause");
+                if(isEncrypted==true){
+                 cout << "Accion no permitida, Archivo Encriptado" << endl;
+                 system("pause");
+                }
+                else{
+                    system("cls");
+                    cout << "\n***Perfil***" << endl;
+                    modifyProfile();
+                    system("pause");
+                }
             break;
             case 2:
-                system("cls");
-                cout << "\n***Usuario***" << endl;
-                modifyUser();
-
-                system("pause");
+                if(isEncrypted==true){
+                 cout << "Accion no permitida, Archivo Encriptado" << endl;
+                 system("pause");
+                }
+                else{
+                    system("cls");
+                    cout << "\n***Usuario***" << endl;
+                    modifyUser();
+                    system("pause");
+                }
             break;
             case 3:
                 system("cls");
@@ -1545,10 +1642,16 @@ void SuperUser::modifyData()
                 system("pause");
             break;
             case 5:
-                system("cls");
-                cout << "\n***Profesor***" << endl;
-                modifyProfessor();
-                system("pause");
+                if(isEncrypted==true){
+                 cout << "Accion no permitida, Archivo Encriptado" << endl;
+                 system("pause");
+                }
+                else{
+                    system("cls");
+                    cout << "\n***Profesor***" << endl;
+                    modifyProfessor();
+                    system("pause");
+                }
             break;
             case 6:
                 system("cls");
@@ -1563,16 +1666,28 @@ void SuperUser::modifyData()
                 system("pause");
             break;
             case 8:
-                system("cls");
-                cout << "\n***Disponibilidad***" << endl;
-                modifyDisponibility();
-                system("pause");
+                if(isEncrypted==true){
+                 cout << "Accion no permitida, Archivo Encriptado" << endl;
+                 system("pause");
+                }
+                else{
+                    system("cls");
+                    cout << "\n***Disponibilidad***" << endl;
+                    modifyDisponibility();
+                    system("pause");
+                }
             break;
             case 9:
-                system("cls");
-                cout << "\n***Oferta***" << endl;
-                modifyOffer();
-                system("pause");
+                if(isEncrypted==true){
+                 cout << "Accion no permitida, Archivo Encriptado" << endl;
+                 system("pause");
+                }
+                else{
+                    system("cls");
+                    cout << "\n***Oferta***" << endl;
+                    modifyOffer();
+                    system("pause");
+                }
             break;
         }
     }while(opc != 10);
@@ -2221,14 +2336,26 @@ void SuperUser::deleteData()
         cin >> opc;
         switch(opc){
             case 1:
-                cout << "\n***Perfil***" << endl;
-                deleteProfile();
-                system("pause");
+                if(isEncrypted==true){
+                 cout << "Accion no permitida, Archivo Encriptado" << endl;
+                 system("pause");
+                }
+                else{
+                    cout << "\n***Perfil***" << endl;
+                    deleteProfile();
+                    system("pause");
+                }
             break;
             case 2:
-                cout << "\n***Usuario***" << endl;
-                deleteUser();
-                system("pause");
+                if(isEncrypted==true){
+                 cout << "Accion no permitida, Archivo Encriptado" << endl;
+                 system("pause");
+                }
+                else{
+                    cout << "\n***Usuario***" << endl;
+                    deleteUser();
+                    system("pause");
+                }
             break;
             case 3:
                 cout << "\n***Grupo***" << endl;
@@ -2241,9 +2368,15 @@ void SuperUser::deleteData()
                 system("pause");
             break;
             case 5:
-                cout << "\n***Profesor***" << endl;
-                deleteProfessor();
-                system("pause");
+                if(isEncrypted==true){
+                 cout << "Accion no permitida, Archivo Encriptado" << endl;
+                 system("pause");
+                }
+                else{
+                    cout << "\n***Profesor***" << endl;
+                    deleteProfessor();
+                    system("pause");
+                }
             break;
             case 6:
                 cout << "\n***Asignatura***" << endl;
@@ -2261,16 +2394,28 @@ void SuperUser::deleteData()
                 system("pause");
             break;
             case 9:
-                system("cls");
-                cout << "\n***Disponibilidad***" << endl;
-                deleteDisponibility();
-                system("pause");
+                if(isEncrypted==true){
+                 cout << "Accion no permitida, Archivo Encriptado" << endl;
+                 system("pause");
+                }
+                else{
+                    system("cls");
+                    cout << "\n***Disponibilidad***" << endl;
+                    deleteDisponibility();
+                    system("pause");
+                }
             break;
             case 10:
-                system("cls");
-                cout << "\n***Oferta***" << endl;
-                deleteOffer();
-                system("pause");
+                if(isEncrypted==true){
+                 cout << "Accion no permitida, Archivo Encriptado" << endl;
+                 system("pause");
+                }
+                else{
+                    system("cls");
+                    cout << "\n***Oferta***" << endl;
+                    deleteOffer();
+                    system("pause");
+                }
             break;
         }
     }while(opc != 11);
@@ -4126,6 +4271,35 @@ bool SuperUser::verifyGroup(const std::string& myStr)
         return false;
 }
 
+bool SuperUser::verifyPeriod(const std::string& myStr)
+{
+    bool flag=false;
+    ifstream myFile;
+    myFile.open("Periodos.txt",ios::in);
+
+    if(!myFile.good()){
+        cout << "Error";
+    }
+    else{
+        while(!myFile.eof()){
+            myFile.read((char *)&myPeriod,sizeof(myPeriod));
+
+            if(myFile.eof()){break;}
+
+            if(myPeriod.getName() == myStr){
+                flag=true;
+            }
+        }
+    }
+    myFile.close();
+    if(flag == true){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
 int SuperUser::showSpecificSubject(const std::string& name, int grade)
 {
     int cont=0;
@@ -4180,4 +4354,474 @@ void SuperUser::showSpecificOfferSubject(const std::string& name, const std::str
 void SuperUser::reatriveDisponibility(const std::string& name)
 {
     myHashing.showTeacher(name);
+}
+
+///********Encriptar**********
+void SuperUser::encrypt()
+{
+    remove("RaizArbol.txt");
+    remove("EncriptacionHoffman.txt");
+    remove("Diccionario.txt");
+    fstream myFile;     ///Archivo a cargar
+
+    myFile.open("Maestros.txt"); ///Abrir archivo
+    myFile.seekp(0,ios::beg);   ///Colocar puntero al principio del archivo
+
+    while(!myFile.eof()){
+        getline(myFile, original); ///Lee archivo
+    }
+
+    myFile.close(); ///Cerrar archivo
+    createHuffmanList();///Paso 2
+    createTree();       ///Paso 3, 4 y 5
+    translateEncrypt(); ///Paso 6
+    packUp();           ///Paso 7
+    myHuff.deleteAll();
+    myTree.deleteAll();
+    isEncrypted = true;
+    system("pause");
+}
+
+void SuperUser::createHuffmanList()
+{
+    int pos = 0;    ///Me da el tamaño de la cadena original
+    int cont = 0;   ///Posicion de letras en decimal (ASCII)
+    bool exist;     ///Checa si una letra fue insertada en la lista
+    string x;       ///Copia una letra de la cadena original
+    char aux;       ///Copia la letra a tratar para convertirla a decimal (ASCII)
+    HuffmanNode* tree;     ///Nodo auxiliar para lista de árbol
+
+    pos = original.size();  ///Tamaño de la cadena
+
+    /// Generando contadores a partir de tabla ascii
+    for(int i = 0; i < 128; i++){
+        contadores[i] = 0;
+    }
+
+    for(int i = 0; i < pos; i++){
+        int p = 0;                  ///Contador
+        x = original[i];            ///Copia 1 caracter de la cadena original
+        aux = original[i];          ///auxiliar de la cadena a tratar (tipo char)
+        exist = myTree.findData(x); ///Busqueda de cadena
+        if(!exist){         ///Si no existe
+            myTree.insertData(myTree.getLastPos(), x);      ///Agregar cadena al arbol
+        }
+        cont = aux;     ///Posicion de ascii de la letra[i]
+
+        p = contadores[cont];   ///valor del contador de esa posicion
+        contadores[cont] = p+1; ///aumento del contador
+    }
+
+    tree = myTree.getFirstPos();        ///Ancla del arbol
+
+    while(tree != NULL){
+        int p = 0;                  ///Contador
+
+        x = tree->getLabel();   ///copia de etiqueta
+        cont = x[0];                ///posicion de ascii de esa letra
+
+        p = contadores[cont];       ///valor del contador en esa posición
+
+        tree->setSum(p);            ///Agregar valor al arbol en cuestión
+
+        tree = tree->getNext();         ///Nodo siguiente arbol
+    }
+    ///cout << endl << endl;
+    cout << "Lista de caracteres con sus frecuencias: " << endl;
+    myTree.toString();
+}
+
+void SuperUser::createTree()
+{
+    HuffmanNode* der;      ///Nodo auxiliar Hoja derecha
+    HuffmanNode* izq;      ///Nodo auxiliar Hoja izquierda
+    HuffmanNode* actual;   ///Nodo auxiliar Raiz
+
+    int tam = 0;    ///Tamaño de la cadena
+    int suma = 0;   ///Suma de dos nodos
+    char cadena = 0;///Etiqueta valor NULL en ASCII
+    string x;       ///Asigna valor NULL en etiqueta de nodo
+    bool flag = false;  ///Criterio de paro para Do-while
+
+    actual = myTree.getFirstPos();  ///Iniciar nodo actual
+
+    tam = original.size();    ///Tomar tamaño de la cadena original
+    cout << endl;
+    cout << "Lista ordenada: " << endl;
+    myTree.orderedListAscendent();  ///Ordenar la lista
+    myTree.toString();////////////////////////////////////////////////////////
+
+    do{
+        myTree.orderedListAscendent();      ///Ordenar la lista
+
+        izq = actual;              ///Hoja izquierda
+        der = actual->getNext();  ///Hoja derecha
+
+        ///Sacar la suma del nodo actual y su nodo siguiente
+        suma = izq->getSum();
+        suma = suma + der->getSum();
+
+        x = cadena; ///Asigna a la cadena x el caracter NULL en ASCII
+
+        myTree.insertRoot(myTree.getLastPos(), izq, der, x, suma);  ///Inserta en árbol
+        actual = myTree.getLastPos();   ///Nodo nuevo
+
+        if(actual->getSum() == tam){    ///ültimo nodo (Raiz)
+            flag = true;
+        }
+
+        actual = myTree.getFirstPos();
+
+    }while(!flag);  ///Rompe ciclo cuando el arbol esté listo
+
+
+    cout << "\t\tArbol:" << endl << endl;
+    myTree.preOrder(myTree.getLastPos());   ///Muestra el arbol con orden (PREORDER)
+
+    x = "";     ///Vacia la cadena
+    actual = myTree.getFirstPos();  ///Toma la raiz del arbol
+
+    dictionary(actual,x);   ///Crea diccionario de datos
+    readDictionary();       ///Imprime diccionario
+    cout << endl;
+}
+
+void SuperUser::dictionary(HuffmanNode* p, std::string& cadena)
+{
+    string nulo;        ///Cadena auxiliar (toma el valor NULL en ASCII)
+    string label = "";  ///Etiqueta de un nodo
+    int tam = 0;        ///Tamaño de la cadena
+    char x = 0;
+    nulo = x;           ///Caracter NULL en ASCII
+
+    ///Criterio de paro
+    if(p == NULL){
+        return;
+    }
+
+    ///Si el nodo no es hoja
+    if(p->getLabel() == nulo){
+        ///Concatena "1" por cada salto a la izquierda que da en el arbol
+        cadena += "1";
+        dictionary(p->getLeft(), cadena);   ///Checa ramas izquierdas
+
+        ///Si ya no encuentra ramas izquierdas, toma la cadena, menos el último caracter agregado, y toma las ramas derechas
+        tam = cadena.size();
+        cadena = cadena.substr(0,tam-1);
+
+        ///Concatena "0" por cada salto a la derecha que da en el arbol
+        cadena += "0";
+        dictionary(p->getRight(), cadena);  ///Checa ramas derechas
+
+        ///Si ya no encuentra ramas derechas, toma la cadena, menos el último caracter agregado
+        tam = cadena.size();
+        cadena = cadena.substr(0,tam-1);
+    }
+        label = p->getLabel();          ///Etiqueta del nodo
+        writeToDiskHuff(label, cadena);     ///Escribir a disco el diccionario
+}
+
+void SuperUser::readDictionary()
+{
+    int tam;
+    string base;
+    char comp;
+    fstream myFile;
+    HuffmanNode* aux;
+
+    myFile.open("Diccionario.txt");
+    myFile.seekg(0,ios::beg);
+    while(!myFile.eof()){
+        getline(myFile, base, '\n');
+        if(myFile.eof()) break;
+
+        comp = base[0];
+        tam = base.size();
+        base = base.substr(2,tam);
+
+        myHuff.insertData(myHuff.getLastPos(), base);
+        aux = myHuff.getLastPos();
+
+        aux->setSum(comp);
+    }
+    myFile.close();
+
+    aux = myHuff.getFirstPos();
+    cout << endl << endl;
+    cout << "Diccionario: " << endl;
+    while( aux != NULL ){
+        comp = aux->getSum();
+        cout << "Char: " << comp << " Binario: " << aux->getLabel() << endl;
+        aux = aux->getNext();
+    }
+}
+
+void SuperUser::writeToDiskHuff(std::string& label, std::string& cadena)
+{
+    fstream myFile;     ///Archivo lógico
+    char x = 0;         ///Caracter NULL en ASCII
+    string y;           ///String con valor NULL en ascii
+
+    y = x;      ///Copia valor del caracter NULL
+
+    myFile.open("Diccionario.txt",ios_base::app);       ///Abrir archivo
+    myFile.seekp(0,ios::end);                           ///Coloca puntero al final de archivo
+
+    ///Si la etiqueta que llega es diferente a NULL, escribe a archivo
+    if(label != y){
+        ///     "Etiqueta"  =  "Cadena de Bits"
+        myFile << label << "=" << cadena << endl;
+    }
+    myFile.close();     ///Cerrar archivo
+}
+
+void SuperUser::translateEncrypt()
+{
+   fstream myFile;             ///Archivo Logico
+
+    string base = "";           ///Cadena base de 8 bits
+    trama = "";                 ///Cadena Trama de bits completa
+    string letter = "";         ///Checa letra
+    string comp = "";           ///Comparar letras
+    int tam = 0;                ///Tamaño de string
+    int tamSize = 0;            ///Tamaño de cadena original
+
+    tamSize = original.size();  ///Tamaño de cadena original
+
+    for(int i = 0; i < tamSize; i++){   ///Mientras que no se lea la cadena completa
+        letter = original[i];           ///Toma una letra de la cadena original
+
+        myFile.open("Diccionario.txt"); ///Abrir archivo de Diccionario
+        myFile.seekg(0,ios::beg);       ///Coloca puntero al inicio del archivo
+        while(!myFile.eof()){           ///Mientras que el archivo no este vacio
+            getline(myFile, base, '\n');///Leer base del diccionario
+            if(myFile.eof()) break;     ///Si termina el archivo, terminar while
+
+            comp = base[0];             ///Toma el primer caracter de la base
+            tam = base.size();          ///Checa el tamaño de la base
+            base = base.substr(2,tam);  ///Base toma el resto de la cadena, a partir del 3 caracter
+
+            if(comp == letter){
+                trama += base;
+                break;
+            }
+        }
+        myFile.close();
+    }
+
+    cout << "Cadena en binario: " << trama << endl;
+}
+
+void SuperUser::packUp()
+{
+    int tam = 0;
+    int x = 0;
+    int y = 7;///8
+    int binario = 0;
+    int decimal = 0;
+
+    bool flag = true;
+    string base = "";
+    string one = "1";
+
+    char ascii;
+
+    string newString = "";
+
+    while(flag){
+        tam = trama.size();
+        if((tam%7) == 0){///8
+            break;
+        }
+        else{
+            trama += "0";
+        }
+    }
+
+    while(flag){
+        base = trama.substr(x,y);
+
+        tam = base.size();
+
+        if(tam == 7){///8
+            flag = true;
+        }
+        else{
+            flag = false;
+        }
+
+        if(flag){
+            binario = 128;///128
+            for(int j = 0; j < 7; j++){///
+                if(base[j] == one[0]){
+                    binario = binario - (binario/2);
+                    decimal = decimal + binario;
+                }
+                else{
+                    binario = binario - (binario/2);
+                }
+            }
+
+            ascii = decimal;
+            newString += ascii;
+
+            decimal = 0;
+            ascii = 0;
+
+            x = x+y;
+        }
+    }
+    cout << endl << endl << endl;
+    cout << "Comprimido: " << newString << endl << endl;
+
+    /**** Escribir datos a disco ****/
+    fstream myFile;
+
+    myFile.open("EncriptacionHoffman.txt",ios_base::app);
+    myFile.seekp(0,ios::end);
+
+    myFile << newString;
+
+    myFile.close();
+
+    myFile.open("RaizArbol.txt",ios_base::app);
+    myFile.seekp(0,ios::end);
+
+    tam = original.size();
+
+    myFile << tam << endl;
+
+    myFile.close();
+}
+
+///********Desencriptar**********
+
+void SuperUser::desencrypt()
+{
+    original = "";
+    trama = "";
+    cadenaEncrypt = "";
+
+    readText();
+    convert();
+    translateDesencrypt();
+    myHuff.deleteAll();
+    myTree.deleteAll();
+    isEncrypted=false;
+    system("pause");
+}
+
+void SuperUser::readText()
+{
+    fstream myFile;
+    ///char aux;
+    std::stringstream message;
+    myFile.open("RaizArbol.txt");
+    myFile.seekg(0,ios::beg);
+    myFile >> raiz;
+    myFile.close();
+
+    cout << endl << endl;
+    cout << "Raiz: " << raiz << endl;
+
+    ifstream h;
+    h.open("EncriptacionHoffman.txt", ios::binary);
+    /*h.seekg(0,ios::beg);
+    while(h.get(aux)){
+        cadenaEncrypt += aux;
+    }*/
+    message << h.rdbuf();
+    cout << "dsadas: " << message.str();
+    cadenaEncrypt = message.str();
+    h.close();
+    cout << "Cadena encriptada:" << cadenaEncrypt << endl << endl;
+}
+
+void SuperUser::convert()
+{
+    int tam = 0;
+    int cont = 0;
+    int sizeBin = 256;///256
+    char x;
+    string binario;
+
+
+    trama = "";
+
+    tam = cadenaEncrypt.size();
+
+    for(int i = 0; i < tam; i++){
+        binario = "";
+        sizeBin = 64;
+
+        x = cadenaEncrypt[i];
+        cont = x;
+        if(cont < 0){
+            cont = cont+64;///128
+        }
+
+        while(binario.size() < 7){///
+            if(cont >= sizeBin){///>=
+                binario += "1";
+                cont = cont - sizeBin;
+            }
+            else{
+                binario += "0";
+            }
+            sizeBin = sizeBin - (sizeBin/2);
+        }
+        trama += binario;
+    }
+    cout << "Trama de bits: " << trama << endl;
+}
+
+void SuperUser::translateDesencrypt()
+{
+    ofstream myFile;
+    string base = "";
+    string copia = "";
+    original = "";
+    int tam = 0;
+    int x = 0;
+    int y = 1;
+    int sizeCopy = 0;
+    char comp;
+    HuffmanNode* aux;
+
+    readDictionary();
+
+    cout << endl << endl;
+
+    tam = original.size();
+
+    while(tam < raiz){
+        tam = original.size();
+
+        base = trama.substr(x,y);
+
+        if(tam == raiz)break;
+
+        if(myHuff.findData(base)){
+            aux = myHuff.returnHuffmanNode(base);
+            comp = aux->getSum();
+            original += comp;
+
+            sizeCopy = base.size();
+            x = x+sizeCopy;
+            y = 1;
+        }
+        else{
+            y++;
+        }
+    }
+    std::stringstream message;
+    string cadena;
+    ifstream h;
+    h.open("Maestros.txt", ios::binary);
+    message << h.rdbuf();
+    cadena = message.str();
+    h.close();
+    cout << "Cadena Original: " << cadena;
+    cout << endl << endl;
+    ///cout << "Cadena Original: " << original << endl << endl;
 }

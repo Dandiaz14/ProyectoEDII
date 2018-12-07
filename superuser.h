@@ -3,6 +3,8 @@
 
 #include <string.h>
 #include <iostream>
+#include <sstream>
+#include <bitset>
 #include "profile.h"
 #include "user.h"
 #include "group.h"
@@ -22,6 +24,7 @@
 #include "disponibility.h"
 #include "catalog.h"
 #include "academicoffer.h"
+#include "huffmanList.h"
 using namespace std;
 
 class SuperUser{
@@ -46,6 +49,14 @@ private:
     Disponibility myDisponibility;
     Catalog myCatalog;
     AcademicOffer myOffer;
+    HuffmanList myHuff;
+    HuffmanList myTree;
+    std::string original;
+    std::string trama;
+    std::string cadenaEncrypt;
+    int contadores[128];
+    int raiz;
+    bool isEncrypted = false;
 public:
     ///Lanza El Menu Principal
     void adminMenu();
@@ -155,6 +166,19 @@ public:
     bool verifyTeacher(const std::string&);
     bool verifySubject(const std::string&);
     bool verifyGroup(const std::string&);
+    bool verifyPeriod(const std::string&);
+    void encrypt();
+    void desencrypt();
+    void createHuffmanList();
+    void createTree();
+    void translateEncrypt();
+    void packUp();
+    void dictionary(HuffmanNode* , std::string& );
+    void readDictionary();
+    void writeToDiskHuff(std::string& , std::string& );
+    void readText();
+    void convert();
+    void translateDesencrypt();
 
     ///Incremento ID's
     int increaseUserId();

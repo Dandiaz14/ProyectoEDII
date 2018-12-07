@@ -65,6 +65,10 @@
 		<Unit filename="hashingNode.h" />
 		<Unit filename="hashingTable.cpp" />
 		<Unit filename="hashingTable.h" />
+		<Unit filename="huffmanList.cpp" />
+		<Unit filename="huffmanList.h" />
+		<Unit filename="huffmanNode.cpp" />
+		<Unit filename="huffmanNode.h" />
 		<Unit filename="index.cpp" />
 		<Unit filename="index.h" />
 		<Unit filename="invertData.cpp" />
@@ -86,6 +90,8 @@
 		<Unit filename="nodeIndex.h" />
 		<Unit filename="nodeSubject.cpp" />
 		<Unit filename="nodeSubject.h" />
+		<Unit filename="nodeTree.cpp" />
+		<Unit filename="nodeTree.h" />
 		<Unit filename="originStack.cpp" />
 		<Unit filename="originStack.h" />
 		<Unit filename="period.cpp" />
